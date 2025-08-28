@@ -7,7 +7,7 @@ public class ContaTerminal {
         
         int numeroConta ;
         String agencia ;
-        String nomeCliente;
+        String PrimeiroNomeCliente;
         double saldo;
         
         System.out.println("Por favor, digite o número da conta: ");
@@ -16,7 +16,7 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o número da agência: ");
         agencia = scanner.next();  
         System.out.println("Por favor, digite o nome do cliente: ");
-        nomeCliente = scanner.next();
+        PrimeiroNomeCliente = scanner.next();
         System.out.println("Por favor, digite o saldo da conta ");
         saldo = scanner.nextDouble();  
         scanner.close();    
